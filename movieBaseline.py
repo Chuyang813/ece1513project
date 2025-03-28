@@ -8,6 +8,7 @@ def read_file(file_path):
         names=['user_id', 'movie_id', 'rating', 'timestamp'],
         engine='python'
     )
+    return ratings
 
 
 
